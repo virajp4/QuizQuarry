@@ -1,0 +1,40 @@
+.body {
+    background-color: #e5e5e5;
+}
+
+.head {
+    background-color: black;
+    color: white;
+}
+
+.enter {
+    background-color: #14213d;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.valueInput {
+    width: 450px;
+}
+
+.quiz {
+    background-color: #fca311;
+}
+
+.optbtn {
+    font-size: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.results {
+    background-color: #98c1d9;
+}
+
+.wordList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
