@@ -27,6 +27,8 @@ const addWord = (inputValue, words) => {
     }
 
     words[key] = valArr
+    input.value = ""
+    wordCount.innerText = `(Total: ${++count})`
     return words
 }
 
@@ -48,9 +50,6 @@ nextBtn.addEventListener('click', function (e) {
 
     let input = document.querySelector('#inputValue')
     words = addWord(input.value, words)
-
-    input.value = ""
-    wordCount.innerText = `(Total: ${++count})`
 })
 
 let resetBtn = document.querySelector('#reset-btn')
@@ -74,5 +73,5 @@ const startQuiz = () => {
 
     ques.innerText = `${randKey}`
     randOption.innerText = `${words[randKey]}`
-    
+
 }
