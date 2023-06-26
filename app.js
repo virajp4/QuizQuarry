@@ -62,7 +62,7 @@ const resetAll = () => {
     input.value = ""
     count = 0
     wordCount.innerText = `(Total: ${count})`
-    ques.innerText = `THE GERMAN WORD`
+    ques.innerText = `THE MAIN WORD`
     resetBtns()
     correct = 0
     scoreLabel.innerText = `Correct Words: 0 (Words Left: 0)`
