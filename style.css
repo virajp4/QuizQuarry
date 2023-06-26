@@ -1,10 +1,21 @@
-.body {
-    background-color: #e5e5e5;
+body {
+    background-color: #fefae0;
+}
+
+.main-box{
+    margin-top: 1%;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 1%;
+    border: 5px black solid;
+    border-radius: 55px;
 }
 
 .head {
     background-color: black;
     color: white;
+    border-radius: 50px 50px 0 0;
+    
 }
 
 .enter {
@@ -19,6 +30,12 @@
     width: 450px;
 }
 
+@media (max-width: 675px){
+    .valueInput {
+            width: 300px;
+        }
+}
+
 .quiz {
     background-color: #fca311;
 }
@@ -30,5 +47,12 @@
 }
 
 .results {
-    background-color: #98c1d9;
+    background-color: #62b6cb;
+    border-radius: 0 0 50px 50px;
+}
+
+.wrongWords {
+    border-radius: 0 0 50px 50px;
+    background-color: #ade8f4;
+    color: black;
 }

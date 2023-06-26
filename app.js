@@ -190,10 +190,13 @@ nextOptBtn.addEventListener('click', function (e) {
 })
 
 wrongBtn.addEventListener('click', function (e) {
+    let results = document.querySelector('.results')
     if (wrongWords.style.display === "none") {
         wrongWords.style.display = "flex"
+        results.style.borderRadius = '0 0 0 0'
     }
     else {
         wrongWords.style.display = "none"
+        results.style.borderRadius = '0 0 50px 50px'
     }
 })
