@@ -1,4 +1,4 @@
-let words = { viraj: ['viru', 'virus'], test: 'test1', test2: 'test22', test3: 'test33' }
+let words = {}
 let allWords = {}
 let count = Object.keys(words).length
 
