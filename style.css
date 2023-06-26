@@ -32,9 +32,3 @@
 .results {
     background-color: #98c1d9;
 }
-
-.wordList {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}

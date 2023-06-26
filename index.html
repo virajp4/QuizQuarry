@@ -26,28 +26,26 @@
         <div class="enterBtns p-3">
             <button class="btn enterbtn" id="next-btn">Next word</button>
             <button class="btn enterbtn" id="start-btn">Start Quiz</button>
-            <button class="btn enterbtn" id="reset-btn">Reset</button>
+            <button class="btn enterbtn btn-danger" id="reset-btn">Reset</button>
         </div>
     </div>
-    <div class="quiz text-center pt-4 pb-2">
+    <div class="quiz text-center pt-3 pb-3">
         <h3 class="defaultQues pb-2" id="ques">THE GERMAN WORD</h3>
         <div class="pb-3">
-            <button class="btn optbtn" id="opt1">Word 1</button>
-            <button class="btn optbtn" id="opt2">Word 2</button>
-            <button class="btn optbtn" id="opt3">Word 3</button>
-            <button class="btn optbtn" id="opt4">Word 4</button>
+            <button class="btn optbtn" id="opt1">Word</button>
+            <button class="btn optbtn" id="opt2">Word</button>
+            <button class="btn optbtn" id="opt3">Word</button>
+            <button class="btn optbtn" id="opt4">Word</button>
         </div>
-        <h5>Next Word In: 5s</h5>
+        <button class="btn nextBtn btn-dark disabled" id="nextBtn">Next Question</button>
     </div>
     <div class="results text-center p-3">
-        <h4>Correct Words: 0 (Words Left: 10)</h4>
-        <button class="btn" id="wrongBtn">Display wrong words</button>
+        <h4 class="" id="result">Correct Words: 0 (Words Left: 0)</h4>
+        <button class="btn btn-primary mt-1" id="wrongBtn">Display wrong words</button>
     </div>
-    <div class="wrongWords p-3">
+    <div class="wrongWords p-3" style="display: none; flex-direction: column; align-items: center;" id="wrongWords">
         <h4 class="text-center" style="text-decoration: underline;">Wrong Words</h4>
-        <ol class="wordList m-0 p-0" id="wordList">
-            <li>word 1</li>
-            <li>word 2</li>
+        <ol class="wordList m-0 p-0" id="wrongList">
         </ol>
     </div>
 
