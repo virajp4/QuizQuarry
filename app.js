@@ -41,8 +41,9 @@ const addWord = (inputValue, words) => {
         valArr = val.trim().split(",")
     }
 
-    let keys = Object.keys(words)
+    
     words[key] = valArr
+    let keys = Object.keys(words)
     wordCount.innerText = `(Total: ${keys.length})`
     input.value = ""
     return words
